@@ -1,13 +1,15 @@
+@import "../variables/variables";
+
 .hm-nav {
-    background-color: paleturquoise;
+    background-color: $bgNavColor;
 }
 .hm-link {
-    color: white;
+    color: $white;
     display: block;
     padding: 0.5rem 1rem;
 }
 .hm-brand {
-    color: white;
+    color: $white;
     display: inline-block;
     padding-top: 0.3125rem;
     padding-bottom: 0.3125rem;
@@ -54,18 +56,8 @@
   }
 
   .hm-link:hover {
-    background: rgb(59, 238, 59);
+    background: $bgColor;
     border-radius: 10px;
-    color: white;
+    color: $white;
     text-decoration: none;
-  }
-
-//   .hm-brand:hover {
-//     background: rgb(28, 209, 28);
-//     color: white;
-//     text-decoration: none;
-//   }
-
-  #bottom {
-    margin-top: 800px;
   }

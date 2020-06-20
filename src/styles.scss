@@ -2,9 +2,10 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 @import "./assets/scss/bk2sc.scss";
 
-html, body, app-root {
+.hm-hero {
     background: url(assets/img/brand/banner08.jpg) no-repeat center top scroll;
     background-repeat: no-repeat;
     background-position: center top;
     overflow: auto;
+    height: 80vh;
 }
