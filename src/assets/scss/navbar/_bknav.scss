@@ -15,7 +15,7 @@
     padding-bottom: 0.3125rem;
     margin-right: 1rem;
     font-size: 1.25rem;
-    font-weight: 600;
+    font-weight: $fontWeight;
     line-height: inherit;
     white-space: nowrap;
 }
@@ -51,7 +51,7 @@
 
   .hm-item {
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: $fontWeight;
     line-height: 1.5;
   }
 
@@ -64,7 +64,7 @@
 
   .hm-btn {
     display: inline-block;
-    font-weight: 600;
+    font-weight: $fontWeight;
     color: $white;
     text-align: center;
     vertical-align: middle;
@@ -88,7 +88,7 @@
 
   .hm-btnText {
     display: inline-block;
-    font-weight: 600;
+    font-weight: $fontWeight;
     color: $white;
     text-align: center;
     vertical-align: middle;
