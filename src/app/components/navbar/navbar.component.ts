@@ -12,6 +12,12 @@ export class NavbarComponent implements OnInit {
 
   toggleNavbar() {
     this.navbarOpen = !this.navbarOpen;
+    var buttonDiv = document.getElementById("registerButtons");
+    if (buttonDiv.style.display === "none") {
+      buttonDiv.style.display = "block";
+    } else {
+      buttonDiv.style.display = "none";
+    }
   }
   ngOnInit(): void {
   }

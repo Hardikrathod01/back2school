@@ -61,3 +61,81 @@
     color: $white;
     text-decoration: none;
   }
+
+  .hm-btn {
+    display: inline-block;
+    font-weight: 600;
+    color: $white;
+    text-align: center;
+    vertical-align: middle;
+    background-color: $bgColor;
+    padding: 0.375rem 0.75rem;
+    border-radius: 10px;
+    border: 1px solid transparent;
+  }
+
+  .hm-btn:hover,.hm-btn1:hover {
+    background: transparent;
+    border-radius: 10px;
+    color: $white;
+    text-decoration: none;
+  }
+
+  .hm-btn:focus, .hm-btn1:focus {
+      outline: none;
+      box-shadow: none;
+  }
+
+  .hm-btnText {
+    display: inline-block;
+    font-weight: 600;
+    color: $white;
+    text-align: center;
+    vertical-align: middle;
+    background-color: $bgColor;
+    padding: 0.400rem 1rem;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    font-size: 1.25rem;
+  }
+
+  .hm-hero .hm-btn {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .hm-hero .hm-btn1 {
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .hm-hero .hm-txt {
+    position: absolute;
+    color: $white;
+    font-weight: 700;
+    font-size: 1.25rem;
+    top: 48%;
+    left: 54%;
+  }
+
+  @media (max-width: 1200px) {
+    .hm-hero .hm-btn1 {
+      position: absolute;
+      top: 70%;
+      left: 40%;
+    }
+  }
+
+    @media (max-width: 1200px) {
+      .hm-hero .hm-txt {
+        position: absolute;
+        top: 57%;
+        left: 38%;
+      }
+  }
